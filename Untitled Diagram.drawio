@@ -10,8 +10,17 @@
         <mxCell id="TkOwXYtEwUb_VDzXQRJP-3" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;&amp;nbsp; Services&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;&amp;nbsp; Seamless Callback&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; End-of-call Notifier&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; Mobile Beep Call&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; Missed Call Notification&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; ...&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="-458" y="858" width="199" height="179" as="geometry" />
         </mxCell>
+        <mxCell id="TkOwXYtEwUb_VDzXQRJP-60" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="TkOwXYtEwUb_VDzXQRJP-4" target="TkOwXYtEwUb_VDzXQRJP-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TkOwXYtEwUb_VDzXQRJP-63" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="TkOwXYtEwUb_VDzXQRJP-4" target="TkOwXYtEwUb_VDzXQRJP-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="TkOwXYtEwUb_VDzXQRJP-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Network Browser (TAS)&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="-476" y="821" width="237" height="248" as="geometry" />
+        </mxCell>
+        <mxCell id="TkOwXYtEwUb_VDzXQRJP-62" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="TkOwXYtEwUb_VDzXQRJP-7" target="TkOwXYtEwUb_VDzXQRJP-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TkOwXYtEwUb_VDzXQRJP-7" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Signaling gateways (SGW)&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="-751.5" y="821" width="239" height="247" as="geometry">
@@ -20,6 +29,9 @@
         </mxCell>
         <mxCell id="TkOwXYtEwUb_VDzXQRJP-11" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; MAP&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; CAMEL&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; SIP&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; ...&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" vertex="1" parent="TkOwXYtEwUb_VDzXQRJP-7">
           <mxGeometry x="31" y="56" width="172" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="TkOwXYtEwUb_VDzXQRJP-61" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="TkOwXYtEwUb_VDzXQRJP-9" target="TkOwXYtEwUb_VDzXQRJP-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TkOwXYtEwUb_VDzXQRJP-9" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;IP Gateways (IPGW)&lt;/font&gt;&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="-200" y="821" width="228" height="248" as="geometry" />
